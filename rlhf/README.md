@@ -1,6 +1,6 @@
 # RLHF Training
 
-This part of codes is for the RLHF training, including both the DPO and PPO algorithms.
+This part of codes is for the RLHF training, including both the DPO and PPO algorithms. The PPO training is based on the [Open RLHF project](https://huggingface.co/RLHFlow/LLaMA3-SFT) and the DPO training is based on the [RLHFlow](https://github.com/RLHFlow/Online-RLHF). We include the RLHFlow training code here for convenience. 
 
 ## Model Checkpoints
 - [SFT model](https://huggingface.co/RLHFlow/LLaMA3-SFT), also check more SFT checkpoints [Here](https://huggingface.co/collections/RLHFlow/sft-models-66eda119ea7d19a23904da28)
