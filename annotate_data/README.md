@@ -22,5 +22,9 @@ The script will compute the reward for each input-output pair using different re
 "rewards": [reward1, reward2, ...]
 ```
 
+## Running code
 
+```python
+accelerate launch annotate_data_bt.py --dataset_name_or_path ./data/my_local_data.jsonl --output_dir ./data/data_with_rewards.jsonl --K 4
+```
 
