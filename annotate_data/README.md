@@ -19,7 +19,7 @@ The script will compute the reward for each input-output pair using different re
 ```python
 {"prompt": ["role":'user', 'content': "the pormpt"],
 "responses": ["response1", "response2", "response3", ...]},
-"rewards": [reward1, reward2, ...]
+"rewards": [reward1, reward2, ...]}
 ```
 
 ## Running code
