@@ -12,8 +12,8 @@ from accelerate import Accelerator
 tqdm.pandas()
 
 #####
-# This script takes a dataset as the input, where each sample is {"prompt": "the pormpt", "responses": ["response1", "response2", "response3", ...]}
-# The script will compute the reward for each input-output pair, and eventually output a new dataset, where each sample contains {"prompt": "the pormpt", "responses": ["response1", "response2", "response3", ...], "rewards": [reward1, reward2, ...]}
+# This script takes a dataset as the input, where each sample is {"prompt": ["role":'user', 'content': "the pormpt"], "responses": ["response1", "response2", "response3", ...]}
+# The script will compute the reward for each input-output pair, and eventually output a new dataset, where each sample contains {"prompt": ["role":'user', 'content': "the pormpt"], "responses": ["response1", "response2", "response3", ...], "rewards": [reward1, reward2, ...]}
 #####
 
 
